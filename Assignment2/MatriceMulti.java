@@ -7,7 +7,7 @@ public class MatriceMulti {
         Scanner num = new Scanner(System.in);
 
         //input the first dimensions of matrix
-        System.out.println("Matrix A :");
+        System.out.println("Matrix A : ");
 
         int rowsA = num.nextInt();
         int columnsA = num.nextInt();
@@ -76,9 +76,12 @@ public class MatriceMulti {
 
 
         for(int i = 0; i < rowsA; i++){
+            System.out.print("| ");
             for(int j = 0; j < columnsB; j++){
-                System.out.print(matrixC[i][j] + " ");
+
+                System.out.print(matrixC[i][j] + "  ");
             }
+            System.out.print("|");
             System.out.println();
         }
     }
