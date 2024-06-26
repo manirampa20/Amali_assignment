@@ -1,3 +1,10 @@
+package dsa;
+
+import models.Book;
+import models.Category;
+import models.Patron;
+import models.Transaction;
+
 import java.util.Stack;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -30,19 +37,19 @@ class LibraryManagementSystem {
         categories.add(category);
     }
 
-    public void borrowBook(Book book, Patron patron) {
-        book.borrowBook();
-        Transaction transaction = new Transaction(book, patron, new Date(), "borrow");
-        transactionHistory.push(transaction);
-        transactionQueue.add(transaction);
-    }
-
-    public void returnBook(Book book, Patron patron) {
-        book.returnBook();
-        Transaction transaction = new Transaction(book, patron, new Date(), "return");
-        transactionHistory.push(transaction);
-        transactionQueue.add(transaction);
-    }
+//    public void borrowBook(Book book, Patron patron) {
+//        book.borrowBook();
+//        Transaction transaction = new Transaction(book, patron, new Date(), "borrow");
+//        transactionHistory.push(transaction);
+//        transactionQueue.add(transaction);
+//    }
+//
+//    public void returnBook(Book book, Patron patron) {
+//        book.returnBook();
+//        Transaction transaction = new Transaction(book, patron, new Date(), "return");
+//        transactionHistory.push(transaction);
+//        transactionQueue.add(transaction);
+//    }
 
     // Other methods for managing the library
 }

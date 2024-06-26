@@ -1,4 +1,6 @@
-class Patron {
+package models;
+
+public class Patron {
     private String name;
     private String patronId;
 

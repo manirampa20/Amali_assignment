@@ -1,3 +1,5 @@
+package models;
+
 class Librarian {
     private String name;
     private String librarianId;

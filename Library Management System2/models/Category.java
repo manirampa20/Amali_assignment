@@ -1,4 +1,6 @@
-class Category {
+package models;
+
+public class Category {
     private String categoryName;
     private String categoryId;
 
