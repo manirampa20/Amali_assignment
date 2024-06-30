@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/javafx/22" xmlns="http://javafx.com/javafx/22" fx:controller="com.example.regexfx.HelloController">
+    <children>
+        <Label layoutX="20.0" layoutY="20.0" text="Enter data:" />
+        <TextField fx:id="dataInputField" layoutX="100.0" layoutY="16.0" prefWidth="200.0" />
+
+        <Button layoutX="320.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleAdd" text="Add" />
+        <Button layoutX="320.0" layoutY="55.0" mnemonicParsing="false" onAction="#handleUpdate" text="Update" />
+        <Button layoutX="320.0" layoutY="95.0" mnemonicParsing="false" onAction="#handleDelete" text="Delete" />
+        <Button layoutX="320.0" layoutY="135.0" mnemonicParsing="false" onAction="#handleClear" text="Clear" />
+        <Button layoutX="320.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleFind" text="Find" />
+
+        <Label layoutX="20.0" layoutY="70.0" text="Data Collection:" />
+        <ListView fx:id="dataListView" layoutX="20.0" layoutY="90.0" prefHeight="200.0" prefWidth="280.0" />
+    </children>
+</AnchorPane>
