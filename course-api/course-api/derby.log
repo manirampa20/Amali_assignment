@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Jul 06 16:57:01 CAT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-0190-888c-67ce-000000e3c8b0 
+on database directory memory:C:\Users\Amalitech\Downloads\course-api\course-api\918c94e1-5e92-41a2-8210-a242cd1a471f with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528 
+Loaded from file:/C:/Users/Amalitech/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Amazon.com Inc.
+java.runtime.version=21.0.3+9-LTS
+user.dir=C:\Users\Amalitech\Downloads\course-api\course-api
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
