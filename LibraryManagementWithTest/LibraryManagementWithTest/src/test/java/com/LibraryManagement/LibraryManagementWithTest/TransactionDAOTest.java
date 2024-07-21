@@ -22,7 +22,7 @@ public class TransactionDAOTest {
     public void testInsertTransaction() {
 
 
-        Transaction transaction = new Transaction(0, 1, "John Doe", "2024-07-01", "2024-08-01", "2024-07-15", "BORROWED");
+        Transaction transaction = new Transaction(33, 1, "John Doe", "2024-07-01", "2024-08-01", "2024-07-15", "BORROWED");
         transactionDAO.insert(transaction);
         Transaction retrievedTransaction = transactionDAO.getTransactionById(transaction.getTransactionId());
         assertNotNull(retrievedTransaction);
@@ -38,7 +38,7 @@ public class TransactionDAOTest {
 
     @Test
     public void testUpdateTransaction() {
-        Transaction transaction = new Transaction(0, 2, "Jane Doe", "2024-06-01", "2024-07-01", "2024-06-20", "BORROWED");
+        Transaction transaction = new Transaction(31, 1, "Jane Doe", "2024-06-01", "2024-07-01", "2024-06-20", "BORROWED");
         transactionDAO.insert(transaction);
         transaction.setStatus("RETURNED");
         transactionDAO.updateTransaction(transaction);
